@@ -1,3 +1,5 @@
+package Task3;
+
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -19,6 +21,7 @@ public class HandlerEthnicity extends DefaultHandler {
     @Override
     public void endDocument() throws SAXException {
         System.out.println("Finish Document Processing");
+        System.out.println("\nAll ethnicities:");
         System.out.println(ethnicities);
     }
 
