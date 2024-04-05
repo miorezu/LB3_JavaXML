@@ -14,6 +14,9 @@ public class SAXHandler extends DefaultHandler {
         this.count = 0;
     }
 
+    public SAXHandler() {
+    }
+
     private ArrayList<String> qNamesDoc = new ArrayList<String>();
 
     private void printIndent(int indentSize) {
@@ -41,7 +44,7 @@ public class SAXHandler extends DefaultHandler {
             indent = indent + 4;
             printIndent(indent);
             System.out.println("Start Element (" + qName + ") processing");
-            if (qName.equals("name")) {
+            if (qName.equals("row")) {
                 if (attributes.getLength() > 0) {
                     printIndent(indent + 4);
                     System.out.println("Attributes: ");

@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5106d9af-5feb-4308-9b55-df19969ab4f7" name="Changes" comment="Start project">
-      <change afterPath="$PROJECT_DIR$/src/MyErrorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidatorXSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HandlerEthnicity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParserEthnicity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SAXHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SAXHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SAXParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SAXParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

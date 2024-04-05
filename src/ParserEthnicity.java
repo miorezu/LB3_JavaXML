@@ -10,14 +10,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class SAXParser {
+public class ParserEthnicity {
 
-    public static void parse(String fileName, int maxRows) {
+    public static void parse(String fileName) {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         try {
             javax.xml.parsers.SAXParser parser = factory.newSAXParser();
             XMLReader reader = parser.getXMLReader();
-            DefaultHandler handler = new SAXHandler(maxRows);
+            DefaultHandler handler = new HandlerEthnicity();
             reader.setContentHandler(handler);
             InputStream xmlStream = new FileInputStream(fileName);
             InputSource xmlSource = new InputSource(xmlStream);
@@ -34,6 +34,6 @@ public class SAXParser {
     }
 
     public static void main(String[] args) {
-        SAXParser.parse("Popular_Baby_Names_NY.xml", 3);
+        ParserEthnicity.parse("Popular_Baby_Names_NY.xml");
     }
 }
