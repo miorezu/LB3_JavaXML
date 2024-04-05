@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5106d9af-5feb-4308-9b55-df19969ab4f7" name="Changes" comment="Start project">
-      <change afterPath="$PROJECT_DIR$/src/SAXHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SAXParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidatorXSD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +34,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/university/2course/CrossPlatfP/LB3_JavaXML"
+    "last_opened_file_path": "D:/university/2course/CrossPlatfP/LB3_JavaXML/src"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\university\2course\CrossPlatfP\LB3_JavaXML\src" />
+      <recent name="D:\university\2course\CrossPlatfP\LB3_JavaXML" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
