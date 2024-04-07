@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5106d9af-5feb-4308-9b55-df19969ab4f7" name="Changes" comment="Start project">
-      <change afterPath="$PROJECT_DIR$/src/Task4/DOMAnalyser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task4/Baby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/Baby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task4/BabyAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/BabyAList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task4/SearchPopularHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/SearchPopularHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task4/SearchPopularParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/SearchPopularParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/MyErrorHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ЛР3 Мазуренко КС22.docx" beforeDir="false" afterPath="$PROJECT_DIR$/ЛР3 Мазуренко КС22.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
