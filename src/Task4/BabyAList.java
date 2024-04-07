@@ -29,7 +29,8 @@ public class BabyAList extends ArrayList {
         this.babies = babies;
     }
 
-    private ArrayList<Baby> babies = new ArrayList<>();
+    private static ArrayList<Baby> babies = new ArrayList<>();
+
     public BabyAList(String ethnicity) {
         this.ethnicity = ethnicity;
     }
@@ -44,16 +45,14 @@ public class BabyAList extends ArrayList {
         return babies.get(index);
     }
 
-
     public Object set(int index, Baby element) {
         return babies.set(index, element);
     }
 
-
     public boolean add(Baby o) {
         babies.add(o);
         sortBabiesByCount();
-        if(babies.size() > 7) {
+        if (babies.size() > 7) {
             babies.remove(babies.size() - 1);
         }
         return true;
@@ -63,9 +62,10 @@ public class BabyAList extends ArrayList {
         Collections.sort(babies, (baby1, baby2) -> {
             int count1 = Integer.parseInt(baby1.getCount());
             int count2 = Integer.parseInt(baby2.getCount());
-            return Integer.compare(count2, count1); // Сортировка по убыванию
+            return Integer.compare(count2, count1);
         });
     }
+
     @Override
     public void clear() {
         babies.clear();

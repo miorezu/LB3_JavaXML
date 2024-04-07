@@ -10,13 +10,16 @@ public class SearchPopularHandler extends DefaultHandler {
     public SearchPopularHandler() {
     }
 
-
     private ArrayList<Baby> children = new ArrayList<>();
     private ArrayList<BabyAList> BabyLists = new ArrayList<>();
 
     private boolean inRow = false;
     private Baby currentBaby;
     private String currentElement;
+
+    public ArrayList<BabyAList> getBabyLists() {
+        return BabyLists;
+    }
 
     @Override
     public void startDocument() throws SAXException {
@@ -27,27 +30,25 @@ public class SearchPopularHandler extends DefaultHandler {
     public void endDocument() throws SAXException {
         boolean added = false;
         System.out.println("Finish Document Processing");
-        for(Baby baby : children)
-        {
+        for (Baby baby : children) {
             added = false;
-            for(BabyAList aList : BabyLists)
-            {
-                if(baby.getEthnicity().equals(aList.getEthnicity()))
-                {
+            for (BabyAList aList : BabyLists) {
+                if (baby.getEthnicity().equals(aList.getEthnicity())) {
                     aList.add(baby);
                     added = true;
                 }
             }
-            if(!added)
-            {
+            if (!added) {
                 BabyAList newList = new BabyAList(baby.getEthnicity());
                 newList.add(baby);
                 BabyLists.add(newList);
             }
+
         }
 
         System.out.println("\nPopular names:");
         System.out.println(BabyLists);
+
     }
 
     @Override

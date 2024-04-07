@@ -16,6 +16,7 @@ public class Baby {
         this.count = count;
         this.rank = rank;
     }
+
     public Baby() {
     }
 
@@ -30,6 +31,7 @@ public class Baby {
                 ", rank='" + rank + '\'' +
                 '}';
     }
+
     public String getName() {
         return name;
     }
@@ -77,6 +79,4 @@ public class Baby {
     public void setRank(String rank) {
         this.rank = rank;
     }
-
-
 }
